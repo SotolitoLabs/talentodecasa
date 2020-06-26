@@ -35,6 +35,19 @@ body {
   background-size: cover;
 }
 
+.tdc-body {
+  height: 100%;
+  width: 100%;
+  /* background-color: #FFFFFF; */
+  /* background-image: linear-gradient(white, gray, black), url("/imgs/TDC_back.jpg"); */
+  /*background-image: url("/imgs/TDC_text_mockup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+}
+
+
+
 body {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -105,6 +118,82 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
+
+.tdc-body {
+  padding-top: 5%; 
+}
+
+.tdc-footer {
+  padding-top: 5%;
+  padding-left: 48%; 
+}
+
+
+.normal-text {
+  font-family: 'Source Sans Pro';
+  font-size: x-large;
+  font-stretch: ultra-condensed;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+.menu-text {
+  font-family: 'Bebas Neue';
+  font-size: xx-large;
+
+}
+
+.red-text {
+  font-family: 'Source Sans Pro';
+  font-size: x-large;
+  font-weight: bolder;
+  color: #ed1c24;
+}
+
+
+.red-bullet {
+  font-family: 'Bebas Neue';
+  font-size: x-small;
+  color: #ed1c24;
+  display: table-cell;
+  padding-top: 1%;
+}
+
+
+.red-bullet-medium {
+  font-family: 'Source Sans Pro';
+  font-size: xx-large;
+  color: #ed1c24;
+  margin-bottom: 1%;
+}
+
+
+
+.normal-text {
+  font-family: 'Source Sans Pro';
+  font-size: x-large;
+}
+
+
+
+.front-logo {
+  margin-bottom: 5%;
+}
+
+.test-blue {
+  background-color: blue;
+}
+
+.test-red {
+  background-color: red;
+}
+
+.test-white {
+  background-color: white;
+}
+
 
 
 /*
